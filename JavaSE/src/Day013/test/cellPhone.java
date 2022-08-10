@@ -3,10 +3,11 @@ package Day013.test;
 import java.util.Scanner;
 
 public class cellPhone {
-	private static phoneNumber[] pnArray = new phoneNumber[100];
+	private static phoneNumber[] pnArray = new phoneNumber[2];
 	private static Scanner sc = new Scanner(System.in);
 	
 	public static void main(String[] args) {
+
 		boolean run = true;
 		while(run) {
 			System.out.println("1. 번호 저장 2. 번호 목록 3. 번호 검색 4. 종료");
